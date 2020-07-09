@@ -17,5 +17,5 @@ TestCases = int(input("Enter the number of test cases"))
 for testCases in range(TestCases):
     CostList = [int(cost) for cost in input("Enter the prices").split(",")]  # [30, 40, 60, 70]
     People = len(CostList)
-    print(minimumCost(CostList, People))
+    print("Total Minimum Cost is " , minimumCost(CostList, People))
 
